@@ -24,6 +24,8 @@
 		B91348DF1388510E00BB73BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B91348DD1388510E00BB73BD /* InfoPlist.strings */; };
 		B91348E21388510E00BB73BD /* TimeTrackerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B91348E11388510E00BB73BD /* TimeTrackerTests.h */; };
 		B91348E41388510E00BB73BD /* TimeTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B91348E31388510E00BB73BD /* TimeTrackerTests.m */; };
+		B91348F61388557E00BB73BD /* TrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91348F41388557E00BB73BD /* TrackerViewController.m */; };
+		B91348F71388557E00BB73BD /* TrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B91348F51388557E00BB73BD /* TrackerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		B91348E01388510E00BB73BD /* TimeTrackerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeTrackerTests-Prefix.pch"; sourceTree = "<group>"; };
 		B91348E11388510E00BB73BD /* TimeTrackerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeTrackerTests.h; sourceTree = "<group>"; };
 		B91348E31388510E00BB73BD /* TimeTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTrackerTests.m; sourceTree = "<group>"; };
+		B91348F31388557E00BB73BD /* TrackerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerViewController.h; sourceTree = "<group>"; };
+		B91348F41388557E00BB73BD /* TrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerViewController.m; sourceTree = "<group>"; };
+		B91348F51388557E00BB73BD /* TrackerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +126,9 @@
 				B91348BD1388510E00BB73BD /* TimeTrackerAppDelegate.h */,
 				B91348BE1388510E00BB73BD /* TimeTrackerAppDelegate.m */,
 				B91348C01388510E00BB73BD /* MainWindow.xib */,
+				B91348F31388557E00BB73BD /* TrackerViewController.h */,
+				B91348F41388557E00BB73BD /* TrackerViewController.m */,
+				B91348F51388557E00BB73BD /* TrackerViewController.xib */,
 				B91348C31388510E00BB73BD /* FirstViewController.h */,
 				B91348C41388510E00BB73BD /* FirstViewController.m */,
 				B91348C61388510E00BB73BD /* SecondViewController.h */,
@@ -234,6 +242,7 @@
 				B91348C21388510E00BB73BD /* MainWindow.xib in Resources */,
 				B91348CB1388510E00BB73BD /* FirstView.xib in Resources */,
 				B91348CE1388510E00BB73BD /* SecondView.xib in Resources */,
+				B91348F71388557E00BB73BD /* TrackerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 				B91348BF1388510E00BB73BD /* TimeTrackerAppDelegate.m in Sources */,
 				B91348C51388510E00BB73BD /* FirstViewController.m in Sources */,
 				B91348C81388510E00BB73BD /* SecondViewController.m in Sources */,
+				B91348F61388557E00BB73BD /* TrackerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
