@@ -137,9 +137,9 @@
 				B91348F51388557E00BB73BD /* TrackerViewController.xib */,
 				B91348C31388510E00BB73BD /* FirstViewController.h */,
 				B91348C41388510E00BB73BD /* FirstViewController.m */,
+				B91348C91388510E00BB73BD /* FirstView.xib */,
 				B91348C61388510E00BB73BD /* SecondViewController.h */,
 				B91348C71388510E00BB73BD /* SecondViewController.m */,
-				B91348C91388510E00BB73BD /* FirstView.xib */,
 				B91348CC1388510E00BB73BD /* SecondView.xib */,
 				B91348B51388510E00BB73BD /* Supporting Files */,
 			);

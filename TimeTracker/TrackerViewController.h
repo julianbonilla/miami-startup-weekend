@@ -11,6 +11,11 @@
 
 @interface TrackerViewController : UIViewController {
     
+    //UILabel *workDuration;
+    //UIDatePicker *datePicker;
 }
+
+//@property (nonatomic, retain) IBOutlet UILabel *workDuration;
+//@property (nonatomic, retain) IBOutlet UIDatePicker *datePicker;
 
 @end

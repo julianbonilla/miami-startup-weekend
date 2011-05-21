@@ -11,17 +11,13 @@
 
 @implementation TrackerViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+//@synthesize workDuration, datePicker;
+
 
 - (void)dealloc
 {
+    //[datePicker release];
+    //[workDuration release];
     [super dealloc];
 }
 
@@ -43,6 +39,12 @@
 
 - (void)viewDidUnload
 {
+    /*
+    [datePicker release];
+    datePicker = nil;
+    [workDuration release];
+    workDuration = nil;
+     */
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
