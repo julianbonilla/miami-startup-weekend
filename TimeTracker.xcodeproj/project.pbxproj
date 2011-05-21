@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B91348AF1388510E00BB73BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91348AE1388510E00BB73BD /* UIKit.framework */; };
+		B91348B11388510E00BB73BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91348B01388510E00BB73BD /* Foundation.framework */; };
+		B91348B31388510E00BB73BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91348B21388510E00BB73BD /* CoreGraphics.framework */; };
+		B91348B91388510E00BB73BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B91348B71388510E00BB73BD /* InfoPlist.strings */; };
+		B91348BC1388510E00BB73BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B91348BB1388510E00BB73BD /* main.m */; };
+		B91348BF1388510E00BB73BD /* TimeTrackerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B91348BE1388510E00BB73BD /* TimeTrackerAppDelegate.m */; };
+		B91348C21388510E00BB73BD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B91348C01388510E00BB73BD /* MainWindow.xib */; };
+		B91348C51388510E00BB73BD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91348C41388510E00BB73BD /* FirstViewController.m */; };
+		B91348C81388510E00BB73BD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91348C71388510E00BB73BD /* SecondViewController.m */; };
+		B91348CB1388510E00BB73BD /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B91348C91388510E00BB73BD /* FirstView.xib */; };
+		B91348CE1388510E00BB73BD /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B91348CC1388510E00BB73BD /* SecondView.xib */; };
+		B91348D51388510E00BB73BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91348AE1388510E00BB73BD /* UIKit.framework */; };
+		B91348D61388510E00BB73BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91348B01388510E00BB73BD /* Foundation.framework */; };
+		B91348D71388510E00BB73BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91348B21388510E00BB73BD /* CoreGraphics.framework */; };
+		B91348DF1388510E00BB73BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B91348DD1388510E00BB73BD /* InfoPlist.strings */; };
+		B91348E21388510E00BB73BD /* TimeTrackerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B91348E11388510E00BB73BD /* TimeTrackerTests.h */; };
+		B91348E41388510E00BB73BD /* TimeTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B91348E31388510E00BB73BD /* TimeTrackerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B91348D81388510E00BB73BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B91348A11388510E00BB73BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B91348A91388510E00BB73BD;
+			remoteInfo = TimeTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B91348AA1388510E00BB73BD /* TimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91348AE1388510E00BB73BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B91348B01388510E00BB73BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B91348B21388510E00BB73BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B91348B61388510E00BB73BD /* TimeTracker-Info.plist */ = {isa = PBXFileReference; path = "TimeTracker-Info.plist"; sourceTree = "<group>"; };
+		B91348B81388510E00BB73BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B91348BA1388510E00BB73BD /* TimeTracker-Prefix.pch */ = {isa = PBXFileReference; path = "TimeTracker-Prefix.pch"; sourceTree = "<group>"; };
+		B91348BB1388510E00BB73BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B91348BD1388510E00BB73BD /* TimeTrackerAppDelegate.h */ = {isa = PBXFileReference; path = TimeTrackerAppDelegate.h; sourceTree = "<group>"; };
+		B91348BE1388510E00BB73BD /* TimeTrackerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTrackerAppDelegate.m; sourceTree = "<group>"; };
+		B91348C11388510E00BB73BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B91348C31388510E00BB73BD /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		B91348C41388510E00BB73BD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B91348C61388510E00BB73BD /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		B91348C71388510E00BB73BD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B91348CA1388510E00BB73BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		B91348CD1388510E00BB73BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		B91348D41388510E00BB73BD /* TimeTrackerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTrackerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91348DC1388510E00BB73BD /* TimeTrackerTests-Info.plist */ = {isa = PBXFileReference; path = "TimeTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		B91348DE1388510E00BB73BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B91348E01388510E00BB73BD /* TimeTrackerTests-Prefix.pch */ = {isa = PBXFileReference; path = "TimeTrackerTests-Prefix.pch"; sourceTree = "<group>"; };
+		B91348E11388510E00BB73BD /* TimeTrackerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeTrackerTests.h; sourceTree = "<group>"; };
+		B91348E31388510E00BB73BD /* TimeTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTrackerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B91348A71388510E00BB73BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91348AF1388510E00BB73BD /* UIKit.framework in Frameworks */,
+				B91348B11388510E00BB73BD /* Foundation.framework in Frameworks */,
+				B91348B31388510E00BB73BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91348D01388510E00BB73BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91348D51388510E00BB73BD /* UIKit.framework in Frameworks */,
+				B91348D61388510E00BB73BD /* Foundation.framework in Frameworks */,
+				B91348D71388510E00BB73BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B913489F1388510E00BB73BD = {
+			isa = PBXGroup;
+			children = (
+				B91348B41388510E00BB73BD /* TimeTracker */,
+				B91348DA1388510E00BB73BD /* TimeTrackerTests */,
+				B91348AD1388510E00BB73BD /* Frameworks */,
+				B91348AB1388510E00BB73BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B91348AB1388510E00BB73BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B91348AA1388510E00BB73BD /* TimeTracker.app */,
+				B91348D41388510E00BB73BD /* TimeTrackerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B91348AD1388510E00BB73BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B91348AE1388510E00BB73BD /* UIKit.framework */,
+				B91348B01388510E00BB73BD /* Foundation.framework */,
+				B91348B21388510E00BB73BD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B91348B41388510E00BB73BD /* TimeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				B91348BD1388510E00BB73BD /* TimeTrackerAppDelegate.h */,
+				B91348BE1388510E00BB73BD /* TimeTrackerAppDelegate.m */,
+				B91348C01388510E00BB73BD /* MainWindow.xib */,
+				B91348C31388510E00BB73BD /* FirstViewController.h */,
+				B91348C41388510E00BB73BD /* FirstViewController.m */,
+				B91348C61388510E00BB73BD /* SecondViewController.h */,
+				B91348C71388510E00BB73BD /* SecondViewController.m */,
+				B91348C91388510E00BB73BD /* FirstView.xib */,
+				B91348CC1388510E00BB73BD /* SecondView.xib */,
+				B91348B51388510E00BB73BD /* Supporting Files */,
+			);
+			path = TimeTracker;
+			sourceTree = "<group>";
+		};
+		B91348B51388510E00BB73BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B91348B61388510E00BB73BD /* TimeTracker-Info.plist */,
+				B91348B71388510E00BB73BD /* InfoPlist.strings */,
+				B91348BA1388510E00BB73BD /* TimeTracker-Prefix.pch */,
+				B91348BB1388510E00BB73BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B91348DA1388510E00BB73BD /* TimeTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B91348E11388510E00BB73BD /* TimeTrackerTests.h */,
+				B91348E31388510E00BB73BD /* TimeTrackerTests.m */,
+				B91348DB1388510E00BB73BD /* Supporting Files */,
+			);
+			path = TimeTrackerTests;
+			sourceTree = "<group>";
+		};
+		B91348DB1388510E00BB73BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B91348DC1388510E00BB73BD /* TimeTrackerTests-Info.plist */,
+				B91348DD1388510E00BB73BD /* InfoPlist.strings */,
+				B91348E01388510E00BB73BD /* TimeTrackerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B91348A91388510E00BB73BD /* TimeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B91348E71388510E00BB73BD /* Build configuration list for PBXNativeTarget "TimeTracker" */;
+			buildPhases = (
+				B91348A61388510E00BB73BD /* Sources */,
+				B91348A71388510E00BB73BD /* Frameworks */,
+				B91348A81388510E00BB73BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTracker;
+			productName = TimeTracker;
+			productReference = B91348AA1388510E00BB73BD /* TimeTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B91348D31388510E00BB73BD /* TimeTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B91348EA1388510E00BB73BD /* Build configuration list for PBXNativeTarget "TimeTrackerTests" */;
+			buildPhases = (
+				B91348CF1388510E00BB73BD /* Sources */,
+				B91348D01388510E00BB73BD /* Frameworks */,
+				B91348D11388510E00BB73BD /* Resources */,
+				B91348D21388510E00BB73BD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B91348D91388510E00BB73BD /* PBXTargetDependency */,
+			);
+			name = TimeTrackerTests;
+			productName = TimeTrackerTests;
+			productReference = B91348D41388510E00BB73BD /* TimeTrackerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B91348A11388510E00BB73BD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B91348A41388510E00BB73BD /* Build configuration list for PBXProject "TimeTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B913489F1388510E00BB73BD;
+			productRefGroup = B91348AB1388510E00BB73BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B91348A91388510E00BB73BD /* TimeTracker */,
+				B91348D31388510E00BB73BD /* TimeTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B91348A81388510E00BB73BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91348B91388510E00BB73BD /* InfoPlist.strings in Resources */,
+				B91348C21388510E00BB73BD /* MainWindow.xib in Resources */,
+				B91348CB1388510E00BB73BD /* FirstView.xib in Resources */,
+				B91348CE1388510E00BB73BD /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91348D11388510E00BB73BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91348DF1388510E00BB73BD /* InfoPlist.strings in Resources */,
+				B91348E21388510E00BB73BD /* TimeTrackerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B91348D21388510E00BB73BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B91348A61388510E00BB73BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91348BC1388510E00BB73BD /* main.m in Sources */,
+				B91348BF1388510E00BB73BD /* TimeTrackerAppDelegate.m in Sources */,
+				B91348C51388510E00BB73BD /* FirstViewController.m in Sources */,
+				B91348C81388510E00BB73BD /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91348CF1388510E00BB73BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91348E41388510E00BB73BD /* TimeTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B91348D91388510E00BB73BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B91348A91388510E00BB73BD /* TimeTracker */;
+			targetProxy = B91348D81388510E00BB73BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B91348B71388510E00BB73BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B91348B81388510E00BB73BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B91348C01388510E00BB73BD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B91348C11388510E00BB73BD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B91348C91388510E00BB73BD /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B91348CA1388510E00BB73BD /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		B91348CC1388510E00BB73BD /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B91348CD1388510E00BB73BD /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		B91348DD1388510E00BB73BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B91348DE1388510E00BB73BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B91348E51388510E00BB73BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B91348E61388510E00BB73BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B91348E81388510E00BB73BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTracker/TimeTracker-Prefix.pch";
+				INFOPLIST_FILE = "TimeTracker/TimeTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B91348E91388510E00BB73BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTracker/TimeTracker-Prefix.pch";
+				INFOPLIST_FILE = "TimeTracker/TimeTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B91348EB1388510E00BB73BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeTracker.app/TimeTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTrackerTests/TimeTrackerTests-Prefix.pch";
+				INFOPLIST_FILE = "TimeTrackerTests/TimeTrackerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B91348EC1388510E00BB73BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeTracker.app/TimeTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTrackerTests/TimeTrackerTests-Prefix.pch";
+				INFOPLIST_FILE = "TimeTrackerTests/TimeTrackerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B91348A41388510E00BB73BD /* Build configuration list for PBXProject "TimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91348E51388510E00BB73BD /* Debug */,
+				B91348E61388510E00BB73BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B91348E71388510E00BB73BD /* Build configuration list for PBXNativeTarget "TimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91348E81388510E00BB73BD /* Debug */,
+				B91348E91388510E00BB73BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B91348EA1388510E00BB73BD /* Build configuration list for PBXNativeTarget "TimeTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91348EB1388510E00BB73BD /* Debug */,
+				B91348EC1388510E00BB73BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B91348A11388510E00BB73BD /* Project object */;
+}
