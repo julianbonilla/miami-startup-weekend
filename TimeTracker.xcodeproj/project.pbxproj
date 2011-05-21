@@ -26,6 +26,9 @@
 		B91348E41388510E00BB73BD /* TimeTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B91348E31388510E00BB73BD /* TimeTrackerTests.m */; };
 		B91348F61388557E00BB73BD /* TrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91348F41388557E00BB73BD /* TrackerViewController.m */; };
 		B91348F71388557E00BB73BD /* TrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B91348F51388557E00BB73BD /* TrackerViewController.xib */; };
+		B913490013885B9A00BB73BD /* glyphicons_056_stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = B91348FF13885B9A00BB73BD /* glyphicons_056_stopwatch.png */; };
+		B913490213885C1F00BB73BD /* glyphicons_040_stats.png in Resources */ = {isa = PBXBuildFile; fileRef = B913490113885C1F00BB73BD /* glyphicons_040_stats.png */; };
+		B913490413885CC000BB73BD /* glyphicons_042_group.png in Resources */ = {isa = PBXBuildFile; fileRef = B913490313885CC000BB73BD /* glyphicons_042_group.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		B91348F31388557E00BB73BD /* TrackerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerViewController.h; sourceTree = "<group>"; };
 		B91348F41388557E00BB73BD /* TrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerViewController.m; sourceTree = "<group>"; };
 		B91348F51388557E00BB73BD /* TrackerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackerViewController.xib; sourceTree = "<group>"; };
+		B91348FF13885B9A00BB73BD /* glyphicons_056_stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_056_stopwatch.png; sourceTree = "<group>"; };
+		B913490113885C1F00BB73BD /* glyphicons_040_stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_040_stats.png; sourceTree = "<group>"; };
+		B913490313885CC000BB73BD /* glyphicons_042_group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_042_group.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,7 @@
 		B91348B51388510E00BB73BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B91348FE13885B6C00BB73BD /* images */,
 				B91348B61388510E00BB73BD /* TimeTracker-Info.plist */,
 				B91348B71388510E00BB73BD /* InfoPlist.strings */,
 				B91348BA1388510E00BB73BD /* TimeTracker-Prefix.pch */,
@@ -169,6 +176,16 @@
 				B91348E01388510E00BB73BD /* TimeTrackerTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B91348FE13885B6C00BB73BD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B91348FF13885B9A00BB73BD /* glyphicons_056_stopwatch.png */,
+				B913490113885C1F00BB73BD /* glyphicons_040_stats.png */,
+				B913490313885CC000BB73BD /* glyphicons_042_group.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +260,9 @@
 				B91348CB1388510E00BB73BD /* FirstView.xib in Resources */,
 				B91348CE1388510E00BB73BD /* SecondView.xib in Resources */,
 				B91348F71388557E00BB73BD /* TrackerViewController.xib in Resources */,
+				B913490013885B9A00BB73BD /* glyphicons_056_stopwatch.png in Resources */,
+				B913490213885C1F00BB73BD /* glyphicons_040_stats.png in Resources */,
+				B913490413885CC000BB73BD /* glyphicons_042_group.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
