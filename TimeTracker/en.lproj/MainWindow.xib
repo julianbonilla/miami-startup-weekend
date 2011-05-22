@@ -53,6 +53,7 @@
 				<object class="NSPSMatrix" key="NSFrameMatrix"/>
 				<string key="NSFrameSize">{320, 480}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSNextKeyView"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -139,7 +140,7 @@
 					</object>
 					<object class="IBUIViewController" id="268481961">
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="807309489">
-							<string key="IBUITitle">Unknown</string>
+							<string key="IBUITitle">Friends</string>
 							<object class="NSCustomResource" key="IBUIImage">
 								<string key="NSClassName">NSImage</string>
 								<string key="NSResourceName">glyphicons_042_group.png</string>
@@ -161,6 +162,7 @@
 					<int key="NSvFlags">266</int>
 					<string key="NSFrame">{{0, 431}, {320, 49}}</string>
 					<reference key="NSSuperview"/>
+					<reference key="NSNextKeyView"/>
 					<object class="NSColor" key="IBUIBackgroundColor">
 						<int key="NSColorSpace">3</int>
 						<bytes key="NSWhite">MCAwAA</bytes>
@@ -301,7 +303,7 @@
 							<reference ref="267566509"/>
 						</object>
 						<reference key="parent" ref="345008397"/>
-						<string key="objectName">View Controller - Life Tracker</string>
+						<string key="objectName">Tracker View Controller</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">128</int>
@@ -332,6 +334,7 @@
 					<string>111.IBPluginDependency</string>
 					<string>125.IBPluginDependency</string>
 					<string>126.IBPluginDependency</string>
+					<string>127.CustomClassName</string>
 					<string>127.IBPluginDependency</string>
 					<string>129.IBPluginDependency</string>
 					<string>2.IBAttributePlaceholdersKey</string>
@@ -355,6 +358,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>TrackerViewController</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSMutableDictionary">

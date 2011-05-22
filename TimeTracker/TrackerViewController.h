@@ -11,11 +11,15 @@
 
 @interface TrackerViewController : UIViewController {
     
-    //UILabel *workDuration;
-    //UIDatePicker *datePicker;
+    UILabel *workDuration;
+    UIDatePicker *datePicker;
+    UITextField *activityTextField;
 }
 
-//@property (nonatomic, retain) IBOutlet UILabel *workDuration;
-//@property (nonatomic, retain) IBOutlet UIDatePicker *datePicker;
+@property (nonatomic, retain) IBOutlet UILabel *workDuration;
+@property (nonatomic, retain) IBOutlet UIDatePicker *datePicker;
+@property (nonatomic, retain) IBOutlet UITextField *activityTextField;
+
+- (IBAction)buttonPressed:(id)sender;
 
 @end

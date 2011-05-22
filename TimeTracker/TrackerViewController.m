@@ -7,17 +7,18 @@
 //
 
 #import "TrackerViewController.h"
-
+#import "CompleteViewController.h"
 
 @implementation TrackerViewController
 
-//@synthesize workDuration, datePicker;
+@synthesize workDuration, datePicker, activityTextField;
 
 
 - (void)dealloc
 {
-    //[datePicker release];
-    //[workDuration release];
+    [datePicker release];
+    [workDuration release];
+    [activityTextField release];
     [super dealloc];
 }
 
@@ -39,22 +40,26 @@
 
 - (void)viewDidUnload
 {
-    /*
     [datePicker release];
     datePicker = nil;
-    
     [workDuration release];
     workDuration = nil;
-     */
+    
+    [activityTextField release];
+    activityTextField = nil;
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (IBAction)buttonPressed:(id)sender {
+    CompleteViewController *complete = [[CompleteViewController alloc] initWithNibName:@"CompleteViewController" bundle:nil];
+    [self.navigationController pushViewController:complete animated:YES];
+    [complete release];
 }
 
 @end
